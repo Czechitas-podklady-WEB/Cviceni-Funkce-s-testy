@@ -32,7 +32,13 @@
 		<script class="mocha-exec">
 			const runner = mocha.run()
 			runner.on('end', () => {
-				if (runner.stats.passes > 0 && typeof yourName === 'function') {
+				const isFiltered =
+					new URLSearchParams(window.location.search).get('grep') !== null
+				if (
+					isFiltered === false &&
+					runner.stats.passes > 0 &&
+					typeof yourName === 'function'
+				) {
 					const name = yourName()
 					if (typeof name === 'string' && name.length > 0) {
 						console.log('Name:', name)

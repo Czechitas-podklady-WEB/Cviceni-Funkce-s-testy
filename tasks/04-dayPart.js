@@ -1,0 +1,3 @@
+const dayPart = (hours) => {
+	// @TODO
+}

@@ -1,0 +1,3 @@
+const isTeenager = (age) => {
+	// @TODO
+}

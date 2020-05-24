@@ -30,7 +30,16 @@
 		<script src="tasks/04-dayPart.test.js"></script>
 
 		<script class="mocha-exec">
-			mocha.run()
+			const runner = mocha.run()
+			runner.on('end', () => {
+				if (runner.stats.passes > 0 && typeof yourName === 'function') {
+					const name = yourName()
+					if (typeof name === 'string' && name.length > 0) {
+						console.log('Name:', name)
+						console.log('Passes:' + runner.stats.passes)
+					}
+				}
+			})
 		</script>
 	</body>
 </html>

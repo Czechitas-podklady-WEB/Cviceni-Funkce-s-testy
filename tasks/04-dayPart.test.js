@@ -1,4 +1,4 @@
-describe('Day part', () => {
+describe('04 Day part', () => {
 	describe('Morning', () => {
 		it('dayPart(5) should return "morning"', () => {
 			chai.assert.equal(dayPart(5), 'morning')

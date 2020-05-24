@@ -1,4 +1,4 @@
-describe('Underage', () => {
+describe('02 Underage', () => {
 	describe('Return type', () => {
 		it('isUnderage(10) should return boolean', () => {
 			chai.assert.equal(typeof isUnderage(10), 'boolean')

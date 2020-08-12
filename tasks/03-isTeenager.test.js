@@ -1,10 +1,10 @@
 describe('03 Teenager', () => {
 	describe('Return type', () => {
 		it('isTeenager(15) should return boolean', () => {
-			chai.assert.equal(typeof isTeenager(15), 'boolean')
+			chai.assert.isBoolean(isTeenager(15))
 		})
 		it('isTeenager(20) should return boolean', () => {
-			chai.assert.equal(typeof isTeenager(20), 'boolean')
+			chai.assert.isBoolean(isTeenager(20))
 		})
 	})
 	describe('isTeenager(age <= 12)', () => {

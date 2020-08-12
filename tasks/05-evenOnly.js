@@ -1,0 +1,3 @@
+const evenOnly = (inputArray) => {
+	// @TODO
+}

@@ -1,3 +1,7 @@
-# JS Practise
+# Cvičení: Funkce s testy
 
-Open `index.html` in your browser to see how you doing. Edit JavaScript files in `tasks` directory to pass tests. You can look into `tasks/*.test.js` files, but please don't edit them.
+## Zadání
+
+- Otevřete soubor `index.html` v prohlížeči a sledujte, jak se vám daří.
+- Postupně upravte JavaScript soubory ve složce `tasks` pro splnění testů.
+- Můžete nahlédnout do souborů `tasks/*.test.js`, ale prosím neupravujte je.

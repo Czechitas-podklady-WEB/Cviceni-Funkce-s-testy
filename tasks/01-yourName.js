@@ -1,9 +1,7 @@
 const yourName = () => {
 	// @TODO
 	/*
-		Is your name Jane? Then you should:
-		<code>
-			return 'Jane'
-		</code>
+		Je vaše jméno Ludmila? V to případě dopište do funkce kód:
+			return 'Ludmila'
 	*/
 }

@@ -1,3 +1,5 @@
+// PROSÍM NEUPRAVOVAT!
+
 describe('05 Even only', () => {
 	describe('Return type', () => {
 		it('evenOnly([1, 2, 3]) should return array', () => {

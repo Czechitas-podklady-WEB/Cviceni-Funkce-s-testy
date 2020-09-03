@@ -1,3 +1,5 @@
+// PROSÍM NEUPRAVOVAT!
+
 describe('04 Day part', () => {
 	describe('Morning', () => {
 		it('dayPart(5) should return "morning"', () => {

@@ -1,3 +1,5 @@
+// PROSÍM NEUPRAVOVAT!
+
 describe('02 Underage', () => {
 	describe('Return type', () => {
 		it('isUnderage(10) should return boolean', () => {

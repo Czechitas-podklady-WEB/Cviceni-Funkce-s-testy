@@ -1,3 +1,5 @@
+// PROSÍM NEUPRAVOVAT!
+
 describe('01 Your name', () => {
 	describe('yourName()', () => {
 		it('should return string', () => {

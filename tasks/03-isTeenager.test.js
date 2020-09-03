@@ -1,3 +1,5 @@
+// PROSÍM NEUPRAVOVAT!
+
 describe('03 Teenager', () => {
 	describe('Return type', () => {
 		it('isTeenager(15) should return boolean', () => {
